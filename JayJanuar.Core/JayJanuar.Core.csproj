@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="9.0.0" />
+    <PackageReference Include="LazyCache" Version="2.0.4" />
+    <PackageReference Include="System.Runtime.Caching" Version="4.7.0" />
+    <PackageReference Include="Unity.Configuration" Version="5.11.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\JayJanuar.Model\JayJanuar.Model.csproj" />
+    <ProjectReference Include="..\JayJanuar.Repo\JayJanuar.Repo.csproj" />
+  </ItemGroup>
+
+</Project>
